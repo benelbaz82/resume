@@ -1,15 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ben Elbaz - DevOps CV</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Ben Elbaz - DevOps CV
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
   <style>
-    body {
+   body {
       font-family: 'Poppins', sans-serif;
       background-color: #f8f9fa;
     }
@@ -26,67 +27,270 @@
       width: 50px;
       background-color: #4f46e5;
     }
-    .progress-bar {
-      height: 8px;
-      border-radius: 4px;
-      background-color: #e5e7eb;
-      overflow: hidden;
-    }
-    .progress {
-      height: 100%;
-      background-color: #4f46e5;
-    }
-    @media print {
-      .print-btn {
-        display: none;
-      }
-    }
   </style>
-</head>
-<body>
-  <div class="container mx-auto px-4 py-8 max-w-5xl">
-    <div class="hidden">
-      <button onclick="window.print()" class="print-btn bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 flex items-center">Print CV</button>
-    </div>
-    <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-      <div class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8" data-aos="fade-down">
-        <div class="flex flex-col md:flex-row items-center">
-          <div class="md:mr-8 mb-4 md:mb-0">
-            <div class="w-40 h-40 rounded-full bg-white p-2"><img src="ben-elbaz-profile.png" alt="Ben Elbaz" class="w-full h-full object-cover rounded-full"></div>
-          </div>
-          <div class="text-center md:text-left">
-            <h1 class="text-4xl font-bold">Ben Elbaz</h1>
-            <p class="text-xl mt-2">DevOps Engineer</p>
-            <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-3">
-              <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">Linux</span>
-              <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">AWS</span>
-              <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">Docker</span>
-              <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">Kubernetes</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="bg-gray-50 p-6 flex flex-wrap justify-center md:justify-between text-gray-600" data-aos="fade-up">
-        <span class="mx-3 my-2">📧 benelbaz82@gmail.com</span>
-        <span class="mx-3 my-2">📞 +972 52-3920133</span>
-        <span class="mx-3 my-2">🔗 <a href="https://linkedin.com/in/BenElbaz" target="_blank">LinkedIn</a></span>
-        <span class="mx-3 my-2">🔗 <a href="Ben%20Elbaz.pdf" target="_blank" download="">Download CV (PDF)</a></span>
-      </div>
-      <div class="px-8 pt-8" data-aos="fade-up">
-        <div class="mb-8">
-          <h2 class="text-2xl font-semibold section-title mb-4">About Me</h2>
-          <p class="text-gray-600 leading-relaxed">Motivated and detail-oriented DevOps with hands-on training and background in operational coordination and logistics from military service. Solid knowledge in Linux, cloud, databases, and automation tools. Eager to grow and contribute within a DevOps team.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 700,
-      easing: 'ease-in-out',
-      once: true
-    });
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
   </script>
-</body>
+ </head>
+ <body>
+  <div class="container mx-auto px-4 py-8 max-w-5xl">
+   <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+    <div class="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8">
+     <div class="flex flex-col md:flex-row items-center">
+      <div class="md:mr-8 mb-4 md:mb-0">
+       <div class="w-40 h-40 rounded-full bg-white p-2">
+        <img alt="Ben Elbaz" class="w-full h-full object-cover rounded-full" src="ben-elbaz-profile.png"/>
+       </div>
+      </div>
+      <div class="text-center md:text-left">
+       <h1 class="text-4xl font-bold">
+        Ben Elbaz
+       </h1>
+       <p class="text-xl mt-2">
+        DevOps Engineer
+       </p>
+       <div class="mt-4 flex flex-wrap justify-center md:justify-start gap-3">
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Linux
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         AWS: EC2
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Lambda
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         S3
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         RDS
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         VPC
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         CloudWatch
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         EventBridge
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Security Groups
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Load Balancers
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Docker
+        </span>
+        <span class="bg-white/20 px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+         Kubernetes
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="bg-gray-50 p-6 flex flex-wrap justify-center md:justify-between text-gray-600">
+     <span class="mx-3 my-2">
+      📧 benelbaz82@gmail.com
+     </span>
+     <span class="mx-3 my-2">
+      📞 +972 52-3920133
+     </span>
+     <span class="mx-3 my-2">
+      🔗
+      <a href="https://linkedin.com/in/BenElbaz" target="_blank">
+       LinkedIn
+      </a>
+     </span>
+     <span class="mx-3 my-2">
+      📎
+      <a download="" href="Ben Elbaz.pdf">
+       Download CV (PDF)
+      </a>
+     </span>
+    </div>
+    <div class="px-8 pt-8">
+     <div class="mb-12" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold section-title mb-4">
+       About Me
+      </h2>
+      <p class="text-gray-600 leading-relaxed">
+       Motivated and detail-oriented DevOps Junior with hands-on training and background in operational coordination and logistics from military service. Solid knowledge in Linux, cloud, databases, and automation tools. Eager to grow and contribute within a DevOps team.
+      </p>
+     </div>
+     <div class="mb-12" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold section-title mb-6">
+       Experience – Military Service
+      </h2>
+      <div class="mb-6">
+       <h3 class="text-xl font-medium text-gray-800">
+        Operations Room NCO (Reserve Duty)
+       </h3>
+       <p class="text-gray-600 italic mb-1">
+        Israel Defense Forces, Southern Command (2023–2025)
+       </p>
+       <ul class="list-disc list-inside text-gray-600 space-y-1">
+        <li>
+         Coordinated between command units in real-time situations.
+        </li>
+        <li>
+         Managed operational reporting and data streams under pressure.
+        </li>
+       </ul>
+      </div>
+      <div class="mb-6">
+       <h3 class="text-xl font-medium text-gray-800">
+        Company Sergeant Major (Active &amp; Reserve)
+       </h3>
+       <p class="text-gray-600 italic mb-1">
+        Israel Defense Forces, Southern Command (2019–2025)
+       </p>
+       <ul class="list-disc list-inside text-gray-600 space-y-1">
+        <li>
+         Oversaw logistics, facility maintenance, and soldier task allocation.
+        </li>
+        <li>
+         Managed administrative processes and operational preparedness.
+        </li>
+        <li>
+         Coordinated logistical support for additional reserve forces during emergencies.
+        </li>
+       </ul>
+      </div>
+      <div class="mb-6">
+       <h3 class="text-xl font-medium text-gray-800">
+        Permanent Personnel Courses Coordinator
+       </h3>
+       <p class="text-gray-600 italic mb-1">
+        Israel Defense Forces, Southern Command (2019–2022)
+       </p>
+       <ul class="list-disc list-inside text-gray-600 space-y-1">
+        <li>
+         Managed professional training and certification processes for permanent personnel.
+        </li>
+        <li>
+         Scheduled and coordinated participation in courses across the command.
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="mb-12" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold section-title mb-6">
+       Education
+      </h2>
+      <div>
+       <h3 class="text-xl font-medium text-gray-800">
+        DevOps Program – Nitzanim to Tech
+       </h3>
+       <span class="text-indigo-600 font-medium">
+        2025 (Expected)
+       </span>
+       <ul class="list-disc list-inside text-gray-600 space-y-1 mt-2">
+        <li>
+         Linux System Administration (RH124, RH134), Networking Fundamentals
+        </li>
+        <li>
+         Python &amp; Bash scripting, Ansible
+        </li>
+        <li>
+         MySQL, MongoDB, Git, GitHub
+        </li>
+        <li>
+         AWS: EC2, Lambda, S3, RDS, VPC, CloudWatch, EventBridge, Load Balancers
+        </li>
+        <li>
+         Kubernetes, Docker and containerization
+        </li>
+        <li>
+         Agile (Scrum, Kanban), JIRA
+        </li>
+        <li>
+         Active Directory, GPO, VPN, DNS
+        </li>
+        <li>
+         CI/CD pipelines, Monitoring (Prometheus, Grafana, ELK)
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="mb-12" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold section-title mb-4">
+       Skills
+      </h2>
+      <ul class="list-disc list-inside text-gray-600 space-y-2">
+       <li>
+        <strong>
+         Programming Languages:
+        </strong>
+        Python, C#, Java, HTML, XML
+       </li>
+       <li>
+        <strong>
+         Operating Systems:
+        </strong>
+        Linux (Red Hat, Ubuntu, CentOS), Windows
+       </li>
+       <li>
+        <strong>
+         Cloud &amp; Containers:
+        </strong>
+        AWS (EC2, Lambda, S3, RDS), Docker, Kubernetes
+       </li>
+       <li>
+        <strong>
+         Databases:
+        </strong>
+        MySQL, MongoDB
+       </li>
+       <li>
+        <strong>
+         Scripting &amp; Tools:
+        </strong>
+        Bash, PowerShell, Git, GitHub, Ansible
+       </li>
+       <li>
+        <strong>
+         Storage &amp; Infrastructure:
+        </strong>
+        NAS, SAN, DaaS, Networking, DNS, VPN, AD, GPO
+       </li>
+       <li>
+        <strong>
+         Methodologies:
+        </strong>
+        Agile (Scrum, Kanban), JIRA
+       </li>
+       <li>
+        <strong>
+         Soft Skills:
+        </strong>
+        Quick learner, team player, adaptable to new technologies
+       </li>
+      </ul>
+     </div>
+     <div class="mb-12" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold section-title mb-4">
+       Languages
+      </h2>
+      <ul class="list-disc list-inside text-gray-600 space-y-1">
+       <li>
+        Hebrew – Native
+       </li>
+       <li>
+        English – Fluent
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+   AOS.init({
+        duration: 700,
+        easing: 'ease-in-out',
+        once: true
+      });
+  </script>
+ </body>
 </html>
